@@ -3,8 +3,8 @@ on:
   push: #do this push
 jobs:
   build:
-    name: Set upenvironment 
-    runs-on: ububtu-latest
+    name: Set up penvironment 
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
